@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Masha's Music Blog</title>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #f4f6f8;
+            color: #222;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        h1, h2 {
+            text-align: center;
+            font-family: "Trebuchet MS", sans-serif;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        .intro {
+            max-width: 750px;
+            margin: 20px auto;
+            text-align: center;
+            font-size: 17px;
+            font-style: italic;
+        }
+
+        .toc {
+            max-width: 500px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .toc ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .toc li {
+            margin: 10px 0;
+            font-weight: 500;
+        }
+
+        .toc a {
+            text-decoration: none;
+            color: #222;
+        }
+
+        .toc a:hover {
+            text-decoration: underline;
+        }
+
+        .song-card {
+            width: 450px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .song-card img {
+            width: 450px;
+            border-radius: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            background-color: #222;
+            color: #ffffff;
+        }
+
+        button:hover {
+            background-color: #444;
+        }
+
+        .info {
+            text-align: left;
+            margin-top: 12px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Masha's Music Blog</h1>
+
+<p class="intro">
+    Today I want to share some of my favourite songs.  
+    Music means a lot to me, and I believe it is something truly special.  
+    Old music is my cup of tea, but I also enjoy discovering new songs every day.  
+    Below you can find three songs I really love.
+</p>
+
+<div class="toc">
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#song1">Red Hot Chili Peppers — Can't Stop</a></li>
+        <li><a href="#song2">Kino — In Our Eyes</a></li>
+        <li><a href="#song3">Sombr — Back To Friends</a></li>
+    </ul>
+</div>
+
+<h2 id="song1">Red Hot Chili Peppers — Can't Stop</h2>
+
+<div class="song-card">
+    <img src="https://source.boomplaymusic.com/group10/M00/95/A9/afa6a54b000f4fbc9b5a306bea46f56e_464_464.jpg" alt="By the Way album cover">
+
+    <a href="https://www.youtube.com/watch?v=8DyziWtkfBw" target="_blank">
+        <button>▶ Play on YouTube</button>
+    </a>
+
+    <div class="info">
+        <p><strong>Artist:</strong> Red Hot Chili Peppers</p>
+        <p><strong>Album:</strong> By the Way (2002)</p>
+        <p><strong>Genre:</strong> Alternative rock / Funk rock</p>
+        <p><strong>Mood:</strong> Energetic</p>
+    </div>
+</div>
+
+<h2 id="song2">Kino — In Our Eyes</h2>
+
+<div class="song-card">
+    <img src="https://avatars.yandex.net/get-music-content/95061/4f3808a0.a.5307396-3/m1000x1000" alt="Gruppa Krovi album cover">
+
+    <a href="https://www.youtube.com/watch?v=ktN_MXU5n7Q" target="_blank">
+        <button>▶ Play on YouTube</button>
+    </a>
+
+    <div class="info">
+        <p><strong>Artist:</strong> Kino</p>
+        <p><strong>Album:</strong> Gruppa Krovi (1988)</p>
+        <p><strong>Genre:</strong> Rock / Post-punk</p>
+        <p><strong>Mood:</strong> Deep, thoughtful</p>
+    </div>
+</div>
+
+<h2 id="song3">Sombr — Back To Friends</h2>
+
+<div class="song-card">
+    <img src="https://i1.sndcdn.com/artworks-3YfFBFfZDjGbWu2o-vdJfpA-t1080x1080.jpg" alt="Back To Friends cover">
+
+    <a href="https://www.youtube.com/watch?v=c8zq4kAn_O0" target="_blank">
+        <button>▶ Play on YouTube</button>
+    </a>
+
+    <div class="info">
+        <p><strong>Artist:</strong> Sombr</p>
+        <p><strong>Genre:</strong> Indie / Alternative</p>
+        <p><strong>Mood:</strong> Calm, emotional, nostalgic</p>
+    </div>
+</div>
+
+</body>
+</html>
